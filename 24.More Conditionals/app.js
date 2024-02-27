@@ -1,0 +1,18 @@
+var city = 'Karachi';
+console.log(city === 'Karachi');
+console.log(city !== 'Karachi');
+console.log(city.toLowerCase() == 'Karachi');
+var nmbr = 20;
+console.log(nmbr == 20);
+console.log(nmbr !== 20);
+console.log(nmbr > 20);
+console.log(nmbr < 20);
+console.log(nmbr >= 20);
+console.log(nmbr <= 20);
+var men = true;
+var women = false;
+console.log(men && !women);
+console.log(men || women);
+var fruits = ['Apple', 'Banana', 'Grapes', 'Strawbery'];
+console.log(fruits.includes('Banana'));
+console.log(!fruits.includes('Apple'));
