@@ -9,7 +9,7 @@ if (alienColor === 'green') {
 
 // Else Block
 
-let alienColor: string = 'red';
+alienColor = 'red';
 
 if (alienColor === 'green') {
   console.log('Congratulations! You just earned 5 points for shooting the green alien.');
