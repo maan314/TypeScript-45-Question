@@ -1,5 +1,5 @@
 //Green Alien Version
-lrt alienColor = 'green';
+var alienColor = 'green';
 // If the alien is green, the player earns 5 points.
 if (alienColor === 'green') {
     console.log('Congratulations! You just earned 5 points for shooting the green alien.');
@@ -11,7 +11,7 @@ else if (alienColor === 'red') {
     console.log('Congratulations! You just earned 15 points for shooting the red alien.');
 }
 //Yellow Alien Version
-let alienColor = 'yellow';
+alienColor = 'yellow';
 // If the alien is yellow, the player earns 10 points.
 if (alienColor === 'green') {
     console.log('Congratulations! You just earned 5 points for shooting the green alien.');
@@ -23,7 +23,7 @@ else if (alienColor === 'red') {
     console.log('Congratulations! You just earned 15 points for shooting the red alien.');
 }
 //Red Alien Version
-let alienColor = 'red';
+alienColor = 'red';
 if (alienColor === 'green') {
     console.log('Congratulations! You just earned 5 points for shooting the green alien.');
 }

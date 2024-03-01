@@ -12,7 +12,7 @@ if (alienColor === 'green') {
 
 //Yellow Alien Version
 
-let alienColor: string = 'yellow';
+alienColor = 'yellow';
 
 // If the alien is yellow, the player earns 10 points.
 if (alienColor === 'green') {
@@ -25,7 +25,7 @@ if (alienColor === 'green') {
 
 //Red Alien Version
 
-let alienColor: string = 'red';
+alienColor = 'red';
 
 
 if (alienColor === 'green') {
