@@ -1,8 +1,10 @@
-let personName = "Usman";
+//Name: Muhammad Usman
+// Date: 17/02/2024
+//we are converting our person name into lower uper and title case
+var personName = "Usman";
 //lowerCase
-console.log("lowercase:"+ personName.toLowerCase());
+console.log("lowercase:" + personName.toLowerCase());
 //UpperCase
-console.log("UPPERCASE:"+ personName.toUpperCase());
+console.log("UPPERCASE:" + personName.toUpperCase());
 //titleCase
-console.log("Title Case:"+ personName.toString());
-
+console.log(personName.charAt(0).toUpperCase() + personName.slice(1).toLowerCase());

@@ -13,4 +13,4 @@ console.log("UPPERCASE:"+ personName.toUpperCase());
 
 //titleCase
 
-console.log("Title Case:"+ personName.toString());
+console.log(personName.charAt(0).toUpperCase() + personName.slice(1).toLowerCase());
